@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="estilos.css">
+    <meta charset="utf-8">
+    <meta name="descripcion" content=descripcion>
+    <meta name="robots" content="index,follow">
+
+    <title>html definitivo</title>
+  </head>
+
+  <body>
+<header>
+  <nav><h1>HTML Y CSS DEFINITIVO CON ANIME</h1></nav>
+</header>
+<main>
+
+<section class="animeList">
+<h2>LISTA DE ANIMES</h2>
+  <ul>
+    <li>ANIMES 1</li>
+    <ol>
+    <a href="https://www.youtube.com/watch?v=WNI_UuM8LYM"> <li>easy love</li></a>
+    <a href="https://www.youtube.com/watch?v=ZGM90Bo3zH0&ab_channel=Weird_WiredWeird_Wired"><li>steins gate</li></a>
+    </ol>
+    <li>ANIMES 2</li>
+    <ol>
+    <a href="https://www.youtube.com/watch?v=JUewJm2ssBw&ab_channel=Weird_WiredWeird_Wired"> <li>full metal alchimist</li></a>
+    <a href="https://www.youtube.com/watch?v=k8ozVkIkr-g&ab_channel=Shir%C5%8DSagisu-TopicShir%C5%8DSagisu-Topic"><li>evangelion</li></a>
+    </ol>
+    <li>ANIMES 3</li>
+    <ol>
+    <a href="https://www.youtube.com/watch?v=gh-vFtEEd84&t=134s&ab_channel=Shir%C5%8DSagisu-TopicShir%C5%8DSagisu-Topic">  <li>hunter x hunter</li></a>
+    </ol>
+  </ul>
+</section>
+
+<section>
+  <h2>TIPOS DE IMAGENES</h2>
+    <h3>Lossy y Lossless</h3>
+    <p>lossy= ligeras y rapidas</p>
+    <p>Lossless= grandes y con mucha definicion</p>
+    <figure>
+      <img class="castelvania" src="castelvania.jpg" alt="castelvaniaoriginal series of netflix" width="350px" height="500px">
+  <figcaption>Imagen netflix</figcaption>
+    </figure>
+
+</section>
+<section>
+  <h1>VIDEO</h1>
+  <video src="video.mp4" controls preload="auto" autoplay poster="posterimage.jpg">
+  </video>
+</section>
+<form class="form" action="index.html" method="post">
+  <label for="nombre">
+    <span>cual es tu nombre?</span>
+    <input type="text" id="nombre">
+  </label>
+
+  <label for="date">
+    <span>que dia inicio a ver anime?</span>
+    <input type="date" id="fecha">
+  </label>
+
+  <label for="horario">
+    <span>en que horario estudias?</span>
+    <input type="time" id="hora">
+  </label>
+</form>
+<br>
+<!--<form class="" action="index.html" method="post">
+  <input type="time" name="hora" >
+  <br>
+  <input type="date" name="dia" >
+  <br>
+  <input type="week" name="semana">
+  <br>
+  <input type="month" name="mes" >
+  <br>
+  <input type="submit" >
+</form> -->
+
+<!--<form class="" action="index.html" method="post">
+  <label for="calendario">
+<input type="datetime-local" name="calendario" >
+  </label>
+</form>-->
+
+<form class="" action="index.html" method="post">
+  <label for="nombre">
+    <span>Nombre</span>
+<input type="text" name="nombre" autocomplete="name"  required>
+  </label>
+  <br>
+  <label for="email">
+    <span>Email</span>
+    <input type="email" name="email"autocomplete="email" required>
+  </label>
+  <input type="submit" name="enviar" >
+
+</form>
+<select class="cursos" >
+  <option value="web">Web</option>
+  <option value="finanzas">finanzas</option>
+</select>
+
+<input list="cursos">
+<datalist id="cursos"class="cursos">
+  <option value="web"></option>
+  <option value="finanzas"></option>
+  <option value="desarrollo"></option>
+</datalist>
+<br>
+<input type="submit" value="jaja">
+<button type="button" name="button">enviar</button>
+</main>
+
+<footer>
+
+</footer>
+  </body>
+</html>

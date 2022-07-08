@@ -1,0 +1,27 @@
+
+header{
+  background-color: gray;
+}
+  body{
+    background-color:black;
+    color:white;
+    font-family: sans-serif;
+  }
+.lista{
+  color:white;
+
+}
+.animeList{
+  margin-left: 100px;
+  background-color: gray;
+  width: 200px;
+  border: 25px;
+  border-radius: 15px;
+color: white;
+  padding-left: 50px;
+}
+.castelvania{
+  border-radius: 15px;
+  border: 10px;
+  margin-left: 50px;
+}

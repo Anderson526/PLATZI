@@ -1,0 +1,45 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin:0;
+}
+.nav{
+  background-color: peachpuff;
+  padding:20px;
+  list-style: none;
+  text-align:  left;
+}
+.nav li{
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  display: contents;
+}
+.nav a {
+text-decoration: none;
+color:black;
+}
+.nav li :hover {
+  background: red;
+  color: black;
+}
+
+.desp{
+display:none;
+position: absolute;
+}
+
+
+.nav :hover .desp{
+  display: block;
+}
+.desp .item{
+  border: solid black;
+  display: block;
+  background: white;
+border-top: 15px;
+}
+.desp .item :hover {
+
+  background: red;
+}

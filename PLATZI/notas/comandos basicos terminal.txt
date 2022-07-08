@@ -1,0 +1,113 @@
+TERMINAL UBUNTO EN WINDOWS
+-----------------------------------
+pwd-home directory  Print Working Directory
+cd -move directory
+
+cd mnt- mover al directorio windows
+
+sudo apt-update
+sudo apt-upgrade
+sudo apt install  *nombre del paquete* nodejs  npm
+
+sudo- administrador
+
+- history
+/ back
+
+..directorio padre 
+cp - copiar
+
+rm-borrar
+mv-mover
+rmdir-borrar directorio 
+
+
+mkdir-crear directorio 
+
+ls -x -ordenar alfabeticamente
+ls -l fecha de creacion
+ls -1h - informacion de kb o mb
+ls -r - subdirectorios
+ -----------------------------------------------------------------
+editores
+VIM 
+:x guardar y salir
+:Q salir del vim
+nano
+
+
+I insertar 
+
+crtl x salir 
+--------------------------------------------------------
+BATCH
+cat  -ver codigo archivo
+head- ver primeras lineas -n numero de lineas
+tail-ver ultimas lineas  -n numero de lineas
+
+
+AVANZADOS
+grep   - busqueda por expresiones
+
+-i sin mayusculas o minusculas
+ejemplo 
+
+grep  -i/nombre /nombre del archivo
+
+sed  -sustituir
+
+sed  "s/archivo1/archivo2/g"  archivoprincipal.    -sustituir un archivo
+	sed $d archivoprincipal    -eliminar ultima linea
+
+AWK tratamiento de texto delimitado
+
+awk -f " ;" " (print $1) archivoincial
+
+
+----------------------------------------------
+touch -crear archivos
+
+
+$ ver finalidades
+
+^si la incluye al principio
+
+
+
+
+--------------------------------------------------------------------------------------
+REDIRECCIONAMIENTO 
+
+clear-borrar o limpiar
+
+---------------------------------------------------------------------------------------
+COMANDOS
+npx create-react-app test   para instalar aplicaciones de manera temporal
+npm para instalar apps de manera permanente en el pc
+
+crlt c terminar procesos
+
+
+sudo chown -R  userwin ~/folder    *permisos de administrador*
+
+
+-------------------------------------------------------------------------------------
+linkear a gibhub
+
+
+ssh-keygen -t rsa -b 4096 -C "email de github"
+
+confirmar
+eval "$(ssh-agent -s)"
+
+
+------------------------------------------------------------------
+
+git add. ingresar archivos del repositorio de gibhub
+
+confirmacion de datos
+git config --edit --global
+crltx salir del editor sin cambios
+
+git commit -m "first commit"
+

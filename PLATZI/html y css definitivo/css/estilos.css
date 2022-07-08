@@ -1,0 +1,48 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+h1{
+  font-family: serif;
+  margin-bottom: 10px;
+}
+#title{
+  font-size: 18px;
+  font-family: arial,helvetica,sans-serif;
+}
+
+#mainNav{
+margin-top: 10px;
+list-style-type: none;
+padding-left: 0px;
+
+}
+#mainNav li{
+  display: inline-block;
+}
+
+#mainNav a{
+color:white;
+background-color: #13a4a4;
+padding: 5px;
+border-radius: 2px;
+text-decoration: none;
+}
+
+
+div > p{ 
+  color: red;
+}
+
+
+/*h1 + p{   //hermano cercano
+  color: red;
+}*/
+
+/*h2 ~ p{ //general sibling
+  color: blue;
+}
+*/

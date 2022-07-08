@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>HTML PROGRAMACION WEB</title>
+  </head>
+  <body>
+    <header>
+    <center>  <h1>EJERCICIOS JAVASCRIPT Y HTML</h1></center>
+    </header>
+    <main>
+      <section class="canvas">
+      <center>  <strong><h1>CUADRITOS</h1></strong> </center>
+        <canvas id="rojo" width="100" height="100"></canvas>
+        <canvas id="blue" width="100" height="100"></canvas>
+        <canvas id="yellow" width="100" height="100"></canvas>
+        <canvas id="green" width="100" height="100"></canvas>
+
+          <script src="script.js">  </script>
+      </section>
+
+      <section class="hipervinculos">
+        <h1>hipervinculos</h1>
+        <div class="lista">
+          <ul>
+          <a href= "https://cun.edu.co/"><li>CUN</li></a>
+        <a href="https://www.google.com/"> <li>GOOGLE</li></a>
+            <a href="https://www.facebook.com/"><li>FACEBOOK</li></a>
+          </ul>
+        </div>
+      </section>
+
+
+
+
+
+    <div id="conteiner">
+
+      <a href="#"><img src="gatos/gato1.png" alt="gato1" width="200" height="100"></a>
+      <a href="#"><img src="gatos/gato2.jpg" alt="gato2" width="200" height="100"></a>
+      <a href="#"><img src="gatos/gato3.jpg" alt="gato3" width="200" height="100"></a>
+      <a href="#"><img src="gatos/gato4.jpg" alt="gato4" width="200" height="100"></a>
+    </div>
+
+<img src="gatos/gato1.png" alt="imagen aumentada"class="imgenAumentada">
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<script>
+$(document).ready(() =>{
+  $("#conteiner a").hover(function(){
+    let rutaImg = $(this).children().attr("src");
+$(".imgenAumentada").fadeTo("slow",0,function(){
+  $(".imgenAumentada").attr("src",rutaImg);
+
+}).fadeTo("slow",1);
+  })
+  $()
+})
+</script>
+</script>
+<section class="funciones"  style="width:500px height:500px;">
+  <h1>DALE CLICK A CADA ORDEN</h1>
+  <p class="amarillo">Color fondo amarillo</p>
+  <p class="blanco">Color fondo blanco</p>
+  <p class="colorA">color de texto azul</p>
+  <p class="colorN">Color de texto negro</p>
+  <p class="texto">mostrar titulo de la pagina</p>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  <script>
+    $(document).ready(function(){
+
+$(".texto").click(function(){
+  $(".funciones").append("<h1>DALE CLICK A CADA ORDEN</h1>");
+})
+
+$(".colorN").click(function(){
+  $(".funciones").css("color","black");
+})
+
+$(".colorA").click(function(){
+  $(".funciones").css("color", "blue");
+})
+
+$(".blanco").click(function(){
+  $(".funciones").css("background", "white");
+})
+
+        $(".amarillo").click(function(){
+          $(".funciones").css("background", "yellow");
+        })
+    })
+  </script>
+</script>
+</section>
+
+<h1>FORMULARIO</h1>
+<br>
+<form class="form" action="index.html" method="post">
+  <label for="">Ingrese nombre</label>
+  <input type="text" placeholder="Username" required>
+  <br>
+  <label for="">Ingrese su correo elctronico</label>
+  <input type="email" placeholder="Email" required>
+  <br>
+  <label for="">Ingrese su edad</label>
+  <input class="edad" type="number" placeholder="Edad" required>
+<br>
+  <input type="submit" name="ENVIAR" >
+</form>
+
+
+
+
+
+    </main>
+  </body>
+</html>

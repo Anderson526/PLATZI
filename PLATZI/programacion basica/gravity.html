@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Peso en otros planetas</title>
+  </head>
+  <body>
+
+<style>
+body{
+  color: white;
+    background-color: blue;
+}
+
+
+
+  </style>
+
+<center><h1> TU PESO EN OTROS PLANETAS</h1></center>
+<p>Este programita calculara tu peso en otros planetas</p>
+
+
+
+
+
+<script>
+  var usuario = prompt("indicame tu peso"); //anotar variables
+
+var menu = prompt("elige 1 para marte 2 para jupiter");
+  var menu1= parseInt(menu);
+
+  var g_tierra = 9.8;  //variables numericos
+  var g_marte = 3.7;
+  var g_jupiter = 24.8;
+  var peso = parseInt(usuario);//cambiar cadena de texto a numero
+  var peso_final;
+
+//estructura condicional
+if(menu1 == 1 ){
+  peso_final = peso * g_marte / g_tierra; //condicion en javascript
+  peso_final = parseInt(peso_final); //modificar los decimales del codigo
+
+
+
+document.write("Bienvenido, tu peso en marte es de: <strong> " + peso_final + " </strong> kilos");
+}else if (menu == 2){
+
+  peso_final = peso * g_jupiter / g_tierra; //condicion en javascript
+  peso_final = parseInt(peso_final); //modificar los decimales del codigo
+
+
+  document.write("Bienvenido, tu peso en jupiter es de: <strong> " + peso_final + " </strong> kilos");
+}else {
+  document.write("Mentiroso elija bien");
+}
+
+
+
+
+
+
+//parsefloat=decimales parseInt=enteros
+
+
+</script>
+
+
+
+  </body>
+</html>

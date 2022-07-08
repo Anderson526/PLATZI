@@ -1,0 +1,38 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.parent{
+
+  border: 2px black dotted;
+  display: inline-block;
+  min-width: 308px;
+  min-height: 560px;
+  border-radius: 10px;
+  background-color: grey;
+}
+.box{
+  display: inline-block;
+
+
+}
+#title{
+  margin-left:  105px;
+  border-radius: 15px;
+  width: 100px;
+  height: 25px;
+  background-color: purple;
+  position: absolute;
+}
+#title h1{
+  font-size: 15px;
+}
+
+#contend {
+  width: 308px;
+  height: 560px;
+  text-align: justify;
+
+}

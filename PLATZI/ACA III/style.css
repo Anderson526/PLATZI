@@ -1,0 +1,56 @@
+#rojo{
+  background-color: red;
+}
+#blue{
+  background-color: blue;
+}
+#yellow{
+  background-color: yellow;
+}
+#green{
+  background-color: green;
+}
+
+.canvas{
+  padding-left: 35px;
+  background-color: white;
+  width: 450px;
+}
+body{
+  background-color: grey;
+}
+
+h1{
+  font-family: sans-serif;
+}
+.hipervinculos{
+  padding-left: 35px;
+  background-color: white;
+  width: 450px;
+  border-radius: 10px
+}
+
+.conteiner{
+  border-radius: 15px;
+}
+
+.fuciones{
+  padding-left: 35px;
+  background-color: white;
+  width: 450px;
+  border-radius: 10px
+}
+
+
+
+
+.form{
+  padding-left: 35px;
+  background-color: white;
+  width: 450px;
+  border-radius: 10px;
+  border:solid  red;
+}
+.form input{
+  outline-color: green;
+}

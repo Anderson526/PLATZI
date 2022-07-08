@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+}
+.nav li{
+  list-style: none;
+  display: inline;
+
+}
+header{
+  background: lightblue;
+
+}
+.conteiner div{
+
+  background-color: green;
+  margin:15px;
+
+max-height: 200px;
+max-width:  200px;
+}
+.info div{
+  display:block;
+  position: absolute;
+  background: gray;
+}
